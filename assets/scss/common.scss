@@ -32,7 +32,6 @@ Header 6
 .h6-nav-bar{
     padding:0px;
     .navbar-nav{
-      flex-direction: inherit;
         .nav-link{
             padding: 5px 5px;
             color:rgba(255, 255, 255, 0.5);
@@ -1357,7 +1356,6 @@ common-innerpage-banner
     background-position: center center;
     .title{
         color:$white;
-        text-transform: uppercase;
         font-weight: 700;
         font-size: 40px;
         line-height: 40px;
