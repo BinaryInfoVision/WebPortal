@@ -579,7 +579,10 @@ position
         margin: 0 5px;
         transition: 0.2s ease-in;
         &:hover {
-            transform: translate3d(0px, -5px, 0px);
+          width: 90px;
+          height: 90px;
+          font-size: 60px;
+            transform: translate3d(0px, -20px, 0px);
         }
     }
     &.light {
@@ -1402,6 +1405,7 @@ Footer 4
             height: 34px;
             line-height: 34px;
             &:hover {
+                font-size:50px;
                 background: $info;
             }
         }
